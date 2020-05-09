@@ -103,5 +103,6 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	fmt.Printf("Created deployment %q.\n", result2.GetObjectMeta().GetName())
 }
